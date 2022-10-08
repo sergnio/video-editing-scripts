@@ -1,4 +1,4 @@
-if [ $# -eq 0 ]
+if [ $# -eq 0 ] 
   then
     echo "No arguments supplied"
     exit 1
@@ -10,6 +10,7 @@ ytInfoFile="yt-info.txt"
 mkdir "${dir}/audio"
 mkdir "${dir}/pr pro"
 mkdir "${dir}/video"
+mkdir "${dir}/video/Proxies"
 mkdir "${dir}/final"
 
 cat <<EOT >> "${dir}/${ytInfoFile}" 
